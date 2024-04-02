@@ -3,7 +3,6 @@ export interface NumberLookupMapStructure {
     numerator: number;
     denominator: number;
     fraction: string;
-    metric: number;
   };
 }
 
