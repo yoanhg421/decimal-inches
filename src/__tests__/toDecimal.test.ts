@@ -5,7 +5,7 @@ test('returns the decimal of a number as a unicode vulgar', () => {
 });
 
 test('returns the decimal of a number as a fraction', () => {
-  expect(toDecimal('0 1/2')).toBe(0.5);
+  expect(toDecimal('19 2/5')).toBe(19.4);
 });
 
 test('returns the decimal of a number as a fraction', () => {

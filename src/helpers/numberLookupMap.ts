@@ -151,6 +151,12 @@ const numberLookupMap: NumberLookupMapStructure = {
     fraction: '25/64',
     metric: 9.921875,
   },
+  '0.4': {
+    numerator: 2,
+    denominator: 5,
+    fraction: '2/5',
+    metric: 10.31875,
+  },
   '0.40625': {
     numerator: 13,
     denominator: 32,

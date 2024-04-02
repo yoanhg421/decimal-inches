@@ -7,7 +7,7 @@ test('returns the fraction of a number as a unicode vulgar', () => {
 });
 
 test('returns the fraction of a number as a fraction', () => {
-  expect(toFraction(0.5)).toBe('1/2');
+  expect(toFraction(19.4)).toBe('19 2/5');
 });
 
 test('returns the fraction of a number as a unicode vulgar', () => {
