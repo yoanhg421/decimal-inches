@@ -18,9 +18,9 @@ parse decimals into fractions / unicode vulgar fractions and vice-versa
 ```
 import {toDecimal, toFraction} from 'fraction-parser'
 
-toFraction(1.5, {useUnicodeVulgar: true}) // returns 1 ½
+toFraction(1.5) // returns 1 ½
 
-toFraction(1.5, {useUnicodeVulgar: true}) // returns 1 1/2
+toFraction(1.5) // returns 1 1/2
 
 toDecimal('1 1/2') // returns 1.5
 
