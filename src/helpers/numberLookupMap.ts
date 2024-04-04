@@ -126,11 +126,6 @@ const numberLookupMap: NumberLookupMapStructure = {
     denominator: 64,
     fraction: '25/64',
   },
-  '0.4': {
-    numerator: 2,
-    denominator: 5,
-    fraction: '2/5',
-  },
   '0.40625': {
     numerator: 13,
     denominator: 32,
@@ -320,11 +315,6 @@ const numberLookupMap: NumberLookupMapStructure = {
     numerator: 63,
     denominator: 64,
     fraction: '63/64',
-  },
-  '1': {
-    numerator: 1,
-    denominator: 1,
-    fraction: '1',
   },
 };
 
